@@ -4,6 +4,7 @@ import { List } from "@material-ui/core";
 import PersonIcon from "@material-ui/icons/Person";
 import DevicesIcon from "@material-ui/icons/Devices";
 import PhotoSizeSelectActualIcon from "@material-ui/icons/PhotoSizeSelectActual";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 import urls from "@vars/urls";
 
@@ -47,6 +48,14 @@ const NavList = ({ handleClose }) => {
               {...navProps}
             />
           ))}
+        <NavItem
+          key="sourceCode"
+          handleClose={handleClose}
+          icon={<GitHubIcon />}
+          label="Source code"
+          to="https://github.com/Asher-JH/react-template"
+          external
+        />
       </List>
     </div>
   );

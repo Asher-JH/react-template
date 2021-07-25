@@ -12,12 +12,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const NavItem = ({ label, icon, to, handleClose }) => {
+const NavItem = ({ label, icon, to, handleClose, external }) => {
   const classes = useStyles();
   const history = useHistory();
 
   const onClick = () => {
     handleClose();
+    if (external) {
+      window.open(to, "_blank");
+      return;
+    }
     history.push(to);
   };
 
