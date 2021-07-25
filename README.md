@@ -15,3 +15,4 @@ Run:
 1. `npm install`
 2. `npm run start`
 
+Last edited: 25/07/2021 - Asher Chan
