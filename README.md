@@ -11,5 +11,7 @@ This template uses
 - Just clone repo
 - Start new project
 
-`npm run start`
+Run:
+1. `npm install`
+2. `npm run start`
 
