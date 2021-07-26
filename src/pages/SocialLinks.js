@@ -13,21 +13,25 @@ const data = [
     icon: <TwitterIcon fontSize="large" />,
     text: "Twitter",
     color: "",
+    url: "https://github.com/Asher-JH",
   },
   {
     icon: <FacebookIcon fontSize="large" />,
     text: "Facebook",
     color: "",
+    url: "https://github.com/Asher-JH",
   },
   {
     icon: <GitHubIcon fontSize="large" />,
     text: "GitHub",
     color: "",
+    url: "https://github.com/Asher-JH",
   },
   {
     icon: <InstagramIcon fontSize="large" />,
     text: "Instagram",
     color: "",
+    url: "https://github.com/Asher-JH",
   },
 ];
 
