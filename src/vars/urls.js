@@ -5,11 +5,14 @@
 const routes = () => {
   const ROOT = "/-";
 
+  const getRoute = name => `${ROOT}/${name}`
+
   return {
     ROOT,
-    ABOUT_ME: `${ROOT}/about-me`,
-    SOCIAL_LINKS: `${ROOT}/social-links`,
-    GALLERY: `${ROOT}/gallery`,
+    ABOUT_ME: getRoute('about-me'),
+    SOCIAL_LINKS: getRoute('social-links'),
+    GALLERY: getRoute('gallery'),
+    CONTACT: getRoute('contact'),
   };
 };
 

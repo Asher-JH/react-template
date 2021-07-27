@@ -4,6 +4,7 @@ import { List } from "@material-ui/core";
 import PersonIcon from "@material-ui/icons/Person";
 import DevicesIcon from "@material-ui/icons/Devices";
 import PhotoSizeSelectActualIcon from "@material-ui/icons/PhotoSizeSelectActual";
+import MailIcon from '@material-ui/icons/Mail';
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 import urls from "@vars/urls";
@@ -31,6 +32,11 @@ const items = [
     label: "Gallery",
     icon: <PhotoSizeSelectActualIcon />,
     to: urls.PAGES.GALLERY,
+  },
+  {
+    label: "Contact",
+    icon: <MailIcon />,
+    to: urls.PAGES.CONTACT,
   },
 ];
 

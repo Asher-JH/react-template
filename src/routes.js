@@ -11,6 +11,7 @@ import Browser from "@components/Browser";
 import AboutMe from "@pages/AboutMe";
 import SocialLinks from "@pages/SocialLinks";
 import Gallery from "@pages/Gallery";
+import Contact from '@pages/Contact';
 import urls from "@vars/urls";
 
 const RootRouter = () => {
@@ -26,6 +27,7 @@ const RootRouter = () => {
               component={SocialLinks}
             />
             <Route exact path={urls.PAGES.GALLERY} component={Gallery} />
+            <Route exact path={urls.PAGES.CONTACT} component={Contact} />
             <Route render={() => <Redirect to={urls.PAGES.ABOUT_ME} />} />
           </Switch>
         </Suspense>
